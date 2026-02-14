@@ -42,6 +42,14 @@
             //else
             //    Console.WriteLine("Invalid");
             #endregion
+            #region Q6
+            // Q6: What will this print?
+            //object o1 = 10;
+            //int a = (int)o1;
+            //Console.WriteLine(a + 1);
+            //print=11 10 is boxed into object Explicit cast(int)o performs unboxing
+            //10 + 1 = 11
+            #endregion
         }
     }
 }
