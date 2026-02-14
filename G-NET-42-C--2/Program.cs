@@ -50,6 +50,21 @@
             //print=11 10 is boxed into object Explicit cast(int)o performs unboxing
             //10 + 1 = 11
             #endregion
+            #region Q7
+            // Q7: What happens here?
+            //object o2 = 10;
+            //long x3 = (long)o2;   // InvalidCastException
+            //Console.WriteLine(x3);
+
+            // Result:InvalidCastException
+            // 10 is boxed as int
+            //Correct way:
+
+            //long x = (int)o;
+            #endregion
+
+
+
         }
     }
 }
