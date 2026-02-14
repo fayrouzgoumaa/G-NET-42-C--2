@@ -100,6 +100,22 @@
             //?? 0(null - coalescing operator) replaces null with 0
             //So length = 0.
             #endregion
+            #region Q11
+            // string? s = null;
+            // int x = int.Parse(s ?? "0");
+            // Console.WriteLine(x);
+
+            //It does NOT protect against invalid numeric input
+
+            //Safe Solution
+            //string? s = null;
+
+            //int x;
+            //if (!int.TryParse(s, out x))
+            //    x = 0;
+
+            //Console.WriteLine(x);     
+            #endregion
 
 
 
