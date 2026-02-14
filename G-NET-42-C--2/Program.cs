@@ -62,7 +62,22 @@
 
             //long x = (int)o;
             #endregion
+            #region Q8
+            // Q8: Avoid exceptions and print -1 if not possible
+            // object o3 = 10;
 
+            // long x4 = o3 is long l ? l :
+            //           o3 is int i ? i :
+            //           -1;
+
+            // Console.WriteLine(x4);
+            // Safe fix:
+
+            //long x = o is long l ? l :
+            //          o is int i ? i :
+            //           -1;
+
+            #endregion
 
 
         }
