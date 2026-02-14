@@ -116,7 +116,19 @@
 
             //Console.WriteLine(x);     
             #endregion
+            #region Q12
+            // string? s = null;
+            // Console.WriteLine(s!.Length);
+            //! is the null - forgiving operator.
+            //It tells the compiler:
+            //“Trust me, this is not null.”
+            //But at runtime:
+            //s is actually null
+            //safe
+            //    string? s = null;
+            //Console.WriteLine(s?.Length ?? 0);
 
+            #endregion
 
 
         }
