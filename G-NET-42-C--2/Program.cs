@@ -129,6 +129,14 @@
             //Console.WriteLine(s?.Length ?? 0);
 
             #endregion
+            #region Q13
+            // string? s = null;
+            // int x = Convert.ToInt32(s);
+            // Console.WriteLine(x);
+            // Thid will print 0
+
+            #endregion
+
 
 
         }
