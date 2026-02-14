@@ -158,6 +158,12 @@
 
 
             #endregion
+            #region Q15
+            //string? user = null;
+            //Console.WriteLine(user?.ToUpper() ?? "Guest");
+
+
+            #endregion
 
 
 
