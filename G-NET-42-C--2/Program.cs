@@ -78,6 +78,16 @@
             //           -1;
 
             #endregion
+            #region Q9
+            // Q9: What will this print?
+            //string? name = null;
+            //Console.WriteLine(name?.Length);
+
+            //output = (blank line)
+            // ?. is the null - conditional operator
+            //If name is null, expression returns null
+            //Console.WriteLine(null) prints nothing
+            #endregion
 
 
         }
