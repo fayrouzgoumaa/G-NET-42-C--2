@@ -88,6 +88,19 @@
             //If name is null, expression returns null
             //Console.WriteLine(null) prints nothing
             #endregion
+            #region Q10
+            //string? name2 = null;
+            //int length = name2?.Length ?? 0;
+            //Console.WriteLine(length);
+
+            //output is 0
+
+            //name2 is null
+            //name2?.Length returns null
+            //?? 0(null - coalescing operator) replaces null with 0
+            //So length = 0.
+            #endregion
+
 
 
         }
