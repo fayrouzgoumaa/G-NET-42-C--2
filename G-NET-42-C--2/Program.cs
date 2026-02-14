@@ -24,7 +24,15 @@
             //int age = int.Parse(Console.ReadLine());
             //Console.WriteLine(age);
             #endregion
+            #region Q4
+            // Q4: What happens and why?
+            //string s = "12a";
+            //int x2 = int.Parse(s);   // Runtime exception
+            //Console.WriteLine(x2);
 
+            //int.Parse() requires a purely numeric string.
+            // "12a" contains a non - numeric character.
+            #endregion
 
         }
     }
