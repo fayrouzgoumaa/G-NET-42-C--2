@@ -11,13 +11,18 @@
             //Explicit casting from double to int.
             //9.99 becomes 9 because the fractional part is discarded.
             #endregion
-            
+
             #region Q2
 
             //int n = 5;
             //double d2 = n / 2.0;   
             //Console.WriteLine(d2);
             //n / 2 performs integer division first(5 / 2 = 2), then converts to double → 2.0
+            #endregion
+            #region Q3
+            //Console.Write("Enter age: ");
+            //int age = int.Parse(Console.ReadLine());
+            //Console.WriteLine(age);
             #endregion
 
 
