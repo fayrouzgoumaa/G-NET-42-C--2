@@ -33,7 +33,15 @@
             //int.Parse() requires a purely numeric string.
             // "12a" contains a non - numeric character.
             #endregion
+            #region Q5
 
+            //string s2 = "12a";
+
+            //if (int.TryParse(s2, out int result))
+            //    Console.WriteLine(result);
+            //else
+            //    Console.WriteLine("Invalid");
+            #endregion
         }
     }
 }
