@@ -137,6 +137,28 @@
 
             #endregion
 
+            #region Q14
+            // string? s = null;
+
+            // A
+            // int a = int.Parse(s);
+            //Result:
+
+            //    ArgumentNullException
+            //    Why?
+            //    Parse does not accept null.
+
+            // B
+            // int b = Convert.ToInt32(s);
+            //Result:
+            //     0
+            //    Why?
+            //    Convert treats null as zero.
+            // Console.WriteLine(b);
+
+
+            #endregion
+
 
 
         }
